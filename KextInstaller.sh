@@ -23,9 +23,11 @@ do
             echo "Done fixing permissions!"
             ;;
         "Rebuild Kextcache")
+            echo "Rebuilding kextcache..."
             command sudo kextcache -i /
             ;;
         "Quit")
+            echo "Script made by ABeeinSpace. Props to StackExchange for a lot of this script and sudo detection"
             break
             ;;
         *) echo "invalid option $REPLY";;
@@ -37,9 +39,5 @@ done
 
 
 
-#    echo "Done fixing permissions! Rebuilding kextcache.. "
-#    command sudo kextcache -i /
-#    echo "I'm all done! Have a nice rest of your day and good luck on all of your fruit shaped endeavors!"
-#    echo "Script made by ABeeinSpace. Props to StackExchange for a lot of this script and sudo detection"
-#    exit 0
+
 fi
