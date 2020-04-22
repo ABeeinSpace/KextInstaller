@@ -37,10 +37,4 @@ do
     esac
 done
 
-
-
-
-
-
-
 fi
