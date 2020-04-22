@@ -6,13 +6,14 @@ if [[ $EUID -ne 0 ]]; then
 
 else
 PS3='Please enter your choice: '
-options=("Mount EFI" "Fix Permissions for /S/L/E" "Fix Permissions for /L/E" "Rebuild Kextcache" "Quit")
+options=("Mount EFI" "Install to EFI" "Fix Permissions for /S/L/E" "Fix Permissions for /L/E" "Rebuild Kextcache" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
         "Mount EFI")
             command sudo diskutil mount disk0s1
             ;;
+        
         "Fix Permissions for /S/L/E")
             echo "fixing permissions on /System/Library/Extensions..."
             command sudo chmod -R 755 /System/Library/Extensions
