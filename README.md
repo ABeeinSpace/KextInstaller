@@ -1,3 +1,7 @@
+# THIS PROJECT IS PROBABLY NOT GOING TO BE DEVELOPED ANYMORE.
+
+Since I've started this little project, I've moved to a real Mac. As such, I have no reason to use this shell script anymore.
+
 # KextInstaller
 A small script to automate fixing permissions on /System/Library/Extensions and /Library/Extensions and rebuilding kextcache
 # How to use
