@@ -12,3 +12,4 @@ Let the script run and reboot!
 # NOTE:
 
 Catalina users will have a large amount of errors spit out at first when the script tries to fix permissions on /S/L/E. This is due to the system volume being read-only. I currently have no checks built in. I plan to add an option to remount as read/write once I get menu options implemented as I dont really want to clutter the code.
+This script will not support Big Sur
